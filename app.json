@@ -1,0 +1,23 @@
+{
+    "name": "Shadowsocks obfs",
+    "description": "Deploy Shadowsocks with obfs plugin to Heroku.",
+    "keywords": [
+        "shadowsocks",
+        "obfs",
+        "simple-obfs",
+        "nginx"
+    ],
+    "env": {
+        "PASSWORD": {
+            "description": "Set your password",
+            "value": "obfspasswd"
+        },
+        "METHOD": {
+            "description": "Define your method",
+            "value": "chacha20-ietf-poly1305"
+        }
+    },
+    "website": "https://github.com/lafawkes/shadowsocks-obfs",
+    "repository": "https://github.com/lafawkes/shadowsocks-obfs",
+    "stack": "container"
+}
