@@ -32,5 +32,5 @@ RUN chmod +x /etc/nginx/conf.d/default.conf
 # STAGE 4: ENTRIPOINTS
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
-EXPOSE 80
+EXPOSE 8080
 CMD ["entrypoint.sh"]
