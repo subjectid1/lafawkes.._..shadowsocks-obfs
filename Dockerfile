@@ -33,4 +33,5 @@ RUN chmod +x /etc/nginx/conf.d/default.conf
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
 EXPOSE 80
+EXPOSE 80/udp
 CMD ["entrypoint.sh"]
